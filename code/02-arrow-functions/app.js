@@ -1,5 +1,5 @@
-function printMyName(name) {
+const printMyName = (name) => {
   console.log(name);
-}
+};
 
 printMyName('Pravin');
