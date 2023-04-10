@@ -1,5 +1,5 @@
-const printMyName = (name, age) => {
-  console.log('My name is ' + name + " and I'm " + age + ' years old.');
+const multiply = (number) => {
+  return number * 2;
 };
 
-printMyName('Pravin', 30);
+console.log(multiply(3));
