@@ -1,4 +1,4 @@
-let myName = 'Pravin';
+const myName = 'Pravin';
 console.log(myName);
 
 myName = 'PS003';
