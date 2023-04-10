@@ -6,3 +6,10 @@ console.log(newNumbers);
 const person = {
   name: 'Pravin',
 };
+
+const newPerson = {
+  ...person,
+  age: 30,
+};
+
+console.log(newPerson);
