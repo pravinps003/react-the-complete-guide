@@ -8,9 +8,11 @@ class Human {
   }
 }
 
-class Person {
+class Person extends Human {
   constructor() {
+    super();
     this.name = 'Pravin';
+    this.gender = 'female';
   }
 
   printMyName() {
@@ -20,3 +22,4 @@ class Person {
 
 const person = new Person();
 person.printMyName();
+person.printGender();
