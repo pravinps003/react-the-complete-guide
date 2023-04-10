@@ -7,5 +7,6 @@ const person = {
   name: 'Pravin',
   age: 30,
 };
+const { age } = person;
 
-console.log(person.name, person.age);
+console.log(person.name, age);
